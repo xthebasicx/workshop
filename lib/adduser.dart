@@ -60,9 +60,9 @@ class _adduserState extends State<adduser> {
                     ),
                     validator: (str) {
                       if (str!.length == 0 ||
-                          str.length < 10 ||
-                          str.length > 10) {
-                        return "cannot be empty or not equal to 10 characters";
+                          str.length < 13 ||
+                          str.length > 13) {
+                        return "cannot be empty or not equal to 13 characters";
                       }
                       return null;
                     },
